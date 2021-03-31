@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./exercise.js"></script>
+    <link href="./exercise.css" rel="stylesheet" />
+    <title>Fruits</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="./image/banana.jpg" alt="banana" style="width:70%">
+              <h4><b>Banana</b></h4> 
+              <ul>
+                <li>name: Banana</li>
+                <li>color: yellow</li>
+                <li>Latin Name: Musa paradisiaca</li>
+                <li>type: Musaceae</li>
+                <li>seed: Tanpa Biji</li>
+              </ul>
+        </div>
+        <div class="card">
+            <img src="./image/banana.jpg" alt="banana" style="width:70%">
+              <h4><b>Banana</b></h4> 
+              <ul>
+                <li>name: Banana</li>
+                <li>color: yellow</li>
+                <li>Latin Name: Musa paradisiaca</li>
+                <li>type: Musaceae</li>
+                <li>seed: Tanpa Biji</li>
+              </ul>
+        </div>
+        <div class="card">
+            <img src="./image/banana.jpg" alt="banana" style="width:70%">
+              <h4><b>Banana</b></h4> 
+              <ul>
+                <li>name: Banana</li>
+                <li>color: yellow</li>
+                <li>Latin Name: Musa paradisiaca</li>
+                <li>type: Musaceae</li>
+                <li>seed: Tanpa Biji</li>
+              </ul>
+        </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="card">
+          <img src="./image/banana.jpg" alt="banana" style="width:70%">
+            <h4><b>Banana</b></h4> 
+            <ul>
+              <li>name: Banana</li>
+              <li>color: yellow</li>
+              <li>Latin Name: Musa paradisiaca</li>
+              <li>type: Musaceae</li>
+              <li>seed: Tanpa Biji</li>
+            </ul>
+      </div>
+      <div class="card">
+          <img src="./image/banana.jpg" alt="banana" style="width:70%">
+            <h4><b>Banana</b></h4> 
+            <ul>
+              <li>name: Banana</li>
+              <li>color: yellow</li>
+              <li>Latin Name: Musa paradisiaca</li>
+              <li>type: Musaceae</li>
+              <li>seed: Tanpa Biji</li>
+            </ul>
+      </div>
+      <div class="card">
+          <img src="./image/banana.jpg" alt="banana" style="width:70%">
+            <h4><b>Banana</b></h4> 
+            <ul>
+              <li>name: Banana</li>
+              <li>color: yellow</li>
+              <li>Latin Name: Musa paradisiaca</li>
+              <li>type: Musaceae</li>
+              <li>seed: Tanpa Biji</li>
+            </ul>
+      </div>
+      </div>
+  </div>
+  <script>
+  const getDataBuah = async () => {
+  const image = "banana.jpg";
+  const option = {
+    method: "GET",
+  };
+  try {
+    let response = await fetch(image, option);
+    response = await response.json();
+    console.log(response);
+  } catch (response) {
+    console.log(response);
+  }
+};
+
+  </script>
+</body>
+</html>
